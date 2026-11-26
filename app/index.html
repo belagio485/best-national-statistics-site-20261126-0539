@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NusaAngka — Indonesia in Numbers</title>
+<meta name="description" content="NusaAngka is an original national statistics site for Indonesia: population, economy, regions, wellbeing and environment, with sourced figures and working charts.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="topbar">
+  <a class="brand" href="#/" aria-label="NusaAngka home">
+    <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+    <span class="brand-name">Nusa<strong>Angka</strong></span>
+    <span class="brand-tag">Indonesia in Numbers</span>
+  </a>
+  <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="siteNav">Menu</button>
+  <nav class="nav" id="siteNav" aria-label="Main">
+    <a href="#/" data-route="home">Overview</a>
+    <a href="#/population" data-route="population">Population</a>
+    <a href="#/economy" data-route="economy">Economy</a>
+    <a href="#/regions" data-route="regions">Regions</a>
+    <a href="#/wellbeing" data-route="wellbeing">Wellbeing</a>
+    <a href="#/environment" data-route="environment">Environment</a>
+    <a href="#/sources" data-route="sources">Sources</a>
+  </nav>
+</header>
+
+<main id="main" tabindex="-1">
+  <div id="app" class="wrap"></div>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-grid">
+    <div>
+      <p class="footer-brand">NusaAngka — Indonesia, measured.</p>
+      <p>An independent, original statistics site. Every figure carries its source and year; methods are listed under <a href="#/sources">Sources</a>. This site runs entirely from its own files — no network requests, no tracking.</p>
+    </div>
+    <nav aria-label="Footer">
+      <a href="#/population">Population</a>
+      <a href="#/economy">Economy</a>
+      <a href="#/regions">Regions</a>
+      <a href="#/wellbeing">Wellbeing</a>
+      <a href="#/environment">Environment</a>
+    </nav>
+    <div>
+      <p><strong>Reading the numbers</strong></p>
+      <p>Population figures are mid-year estimates. Money figures are current prices unless marked “real”. “BPS” is Statistics Indonesia.</p>
+      <button class="btn btn-ghost" id="toTopBtn" type="button">Back to top</button>
+    </div>
+  </div>
+  <p class="wrap footer-note">NusaAngka is a demonstration statistics publication built for readers who look up a country’s numbers. It is not an official BPS product.</p>
+</footer>
+
+<script type="module" src="main.js"></script>
+</body>
+</html>
